@@ -2,9 +2,8 @@ package com.example.firstProject.controller;
 
 
 import com.example.firstProject.dto.ArticleForm;
-import com.example.firstProject.entity.Article; //Article 클래스 임포트
+import com.example.firstProject.domain.Article; //Article 클래스 임포트
 import com.example.firstProject.repository.ArticleRepository;
-import lombok.Getter;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -14,8 +13,6 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 
 import java.util.ArrayList;
-import java.util.List;
-import java.util.Optional;
 
 
 @Controller

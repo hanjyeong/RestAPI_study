@@ -1,6 +1,6 @@
 package com.example.firstProject.repository;
 
-import com.example.firstProject.entity.Article;
+import com.example.firstProject.domain.Article;
 import org.springframework.data.repository.CrudRepository;
 
 import java.util.ArrayList;
